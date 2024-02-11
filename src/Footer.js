@@ -3,7 +3,7 @@ import React from 'react'
 function Footer(){
   return (
     <div>
-      <h4>Doormat Navigation</h4>
+      <h4>Doormat navigation</h4>
       <ul>
         <li><a href=''>home</a></li>
         <li><a href=''>about</a></li>

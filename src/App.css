@@ -1,4 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 25px 10px;
+  background-color: #f4ce14;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 0;
+  font-family: Karla;
+  font-weight: 1000;
+}
+
+a {
+  color: #000000;
+}
+
+a :hover{
+  color: #ffffff;
+}
+
+/*-------------Navigation Bar--------------*/
+
 .navbar {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 100px 10px;
   text-transform: uppercase;
-  
+  color: #000000;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-family: Karla;
+}
+
+@font-face {
+  font-family: Karla;
+  src: url(./Assets/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Markazi;
+  src: url(./Assets/MarkaziText-VariableFont_wght.ttf);
+}
+
+/*--------------------Hero Section--------------------*/
+
+.hero-section {
+  padding: 50px 100px 50px;
+  background-color: #495E57;
+}
+
+.hero-section > h1, h2 {
+  font-family: Markazi;
+  color: #f4ce14;
+}
+
+.hero-section > h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.hero-section > h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.hero-section > p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.hero-section > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  float: right;
+}
+
+@media(max-width: 50px) {
+  .hero-section > img {
+    width: 100%;
+  }
+}
+
+/*------------Main-section------------*/
+
+.main-section {
+  padding: 50px 100px 50px;
 }

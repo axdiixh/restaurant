@@ -2,9 +2,10 @@ import React from 'react'
 
 function Main(){
   return (
-    <div>
-      <p>Main</p>
-    </div>
+    <main className='main-section'>
+      <p>This week Specials!</p>
+      <button><a>Online Menu</a></button>
+    </main>
   )
 }
 
