@@ -2,29 +2,35 @@ import React from 'react'
 
 function Footer(){
   return (
-    <div>
-      <h4>Doormat navigation</h4>
-      <ul>
-        <li><a href=''>home</a></li>
-        <li><a href=''>about</a></li>
-        <li><a href=''>menu</a></li>
-        <li><a href=''>reservations</a></li>
-        <li><a href=''>order online</a></li>
-        <li><a href=''>login</a></li>
-      </ul>
-      <h4>Contact</h4>
-      <ul>
-        <li><a href=''>adress</a></li>
-        <li><a href=''>phone number</a></li>
-        <li><a href=''>email</a></li>
-      </ul>
-      <h4>Social Media Links</h4>
-      <ul>
-        <li><a href=''>adress</a></li>
-        <li><a href=''>phone number</a></li>
-        <li><a href=''>email</a></li>
-      </ul>
-    </div>
+    <footer className='footer-section'>
+      <div>
+        <h4>Doormat navigation</h4>
+        <ul>
+          <li><a href=''>Home</a></li>
+          <li><a href=''>About</a></li>
+          <li><a href=''>Menu</a></li>
+          <li><a href=''>Reservations</a></li>
+          <li><a href=''>Order online</a></li>
+          <li><a href=''>Login</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href=''>Address</a></li>
+          <li><a href=''>Phone number</a></li>
+          <li><a href=''>Email</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Social Media Links</h4>
+        <ul>
+          <li><a href=''>Address</a></li>
+          <li><a href=''>Phone number</a></li>
+          <li><a href=''>Email</a></li>
+        </ul>
+      </div>
+    </footer>
   )
 }
 

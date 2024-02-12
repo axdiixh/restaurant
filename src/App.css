@@ -20,8 +20,19 @@ a {
   color: #000000;
 }
 
-a :hover{
-  color: #ffffff;
+@font-face {
+  font-family: Karla;
+  src: url(./Assets/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Markazi;
+  src: url(./Assets/MarkaziText-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Kdam Thmor;
+  src: url(./Assets/KdamThmorPro-Regular.ttf);
 }
 
 /*-------------Navigation Bar--------------*/
@@ -38,18 +49,14 @@ a :hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: 500;
+  font-weight: 700;
   font-family: Karla;
 }
 
-@font-face {
-  font-family: Karla;
-  src: url(./Assets/Karla-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Markazi;
-  src: url(./Assets/MarkaziText-VariableFont_wght.ttf);
+@media (max-width:900px) {
+  .navbar {
+    padding: 10px;
+  }
 }
 
 /*--------------------Hero Section--------------------*/
@@ -99,4 +106,101 @@ a :hover{
 
 .main-section {
   padding: 50px 100px 50px;
+}
+
+.main-section > button {
+  float: right;
+}
+
+.main-section > p {
+  font-family: Markazi;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.food-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  background-color: #e7e5e5;
+  border-radius: 8px;
+}
+
+.food > img {
+  height: 200px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-family: Markazi;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.priceTag {
+  color: #E38A21;
+}
+
+.food-description {
+  padding: 0 30px 0;
+  font-weight: 600;
+  font-size: 17px;
+  color: #808080;
+  height: 150px;
+}
+
+.order {
+  padding: 0 30px 0;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.single-rating {
+  height: 200px;
+  width: 200px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  font-weight: bold
+}
+
+/*-------------Footer Section-------------*/
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 50px 100px 50px;
+  background-color: #495E57;
 }
